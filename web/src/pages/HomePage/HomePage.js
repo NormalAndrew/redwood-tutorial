@@ -1,9 +1,10 @@
 import BlogLayout from 'src/layouts/BlogLayout'
+import BlogPostsCell from 'src/components/BlogPostsCell'
 
 const HomePage = () => {
   return (
     <BlogLayout>
-      <h1>Home</h1>
+      <BlogPostsCell />
     </BlogLayout>
   )
 }
